@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>USTA NJ Tennis – Player Dashboard</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;background:#ecf0f1;padding:24px}
+h1{text-align:center;color:#1a237e;font-size:1.8em;margin-bottom:6px}
+.subtitle{text-align:center;color:#555;font-size:13px;margin-bottom:28px}
+.grid{display:flex;flex-wrap:wrap;gap:20px;justify-content:center}
+.card{background:#fff;border-radius:14px;box-shadow:0 3px 12px rgba(0,0,0,.1);
+       padding:22px;width:330px;display:flex;flex-direction:column;gap:10px}
+.card h2{font-size:1.15em;color:#1a237e}
+.card h2 a{text-decoration:none;color:inherit}
+.card h2 a:hover{text-decoration:underline}
+.badges{display:flex;gap:6px;flex-wrap:wrap}
+.badge{padding:3px 10px;border-radius:20px;font-size:11px;font-weight:700}
+.ntrp{background:#e3f2fd;color:#0d47a1}
+.sect{background:#fff3e0;color:#e65100}
+.record{font-size:1.5em;font-weight:700}
+.sub{font-size:11px;color:#888}
+.teams{padding-left:16px;font-size:12px;color:#444;display:flex;flex-direction:column;gap:3px}
+.teams em{color:#999;font-size:10px}
+.btn{display:inline-block;background:#1a237e;color:#fff;padding:9px 18px;
+      border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;
+      text-align:center;margin-top:auto}
+.btn:hover{background:#283593}
+footer{text-align:center;margin-top:40px;color:#aaa;font-size:11px}
+</style>
+</head>
+<body>
+<h1>USTA Tennis — New Jersey Player Dashboard</h1>
+<p class="subtitle">
+  Section: Middle States (NJ) &nbsp;|&nbsp;
+  Players: Tie Zhao · Tony Liu · Rui Qin · Guoqiang Zhang<br>
+  Data source: <a href="https://www.tennisrecord.com" target="_blank">tennisrecord.com</a>
+</p>
+<div class="grid">
+        <div class="card">
+          <h2><a href="usta_Zhao_Tie_timeline.html">Zhao, Tie</a></h2>
+          <div class="badges">
+            <span class="badge ntrp">NTRP 4.5</span>
+            <span class="badge sect">Middle States</span>
+          </div>
+          <div class="record" style="color:#27ae60">
+            25W – 22L &nbsp;(53.2%)
+          </div>
+          <div class="sub">Teams (4) · 47 matches</div>
+          <ul class="teams"><li>Bridgewater Racquet Club 4.5 <em>[2022 Spring]</em> <strong style='color:#27ae60'>5W</strong>–<strong style='color:#e74c3c'>7L</strong></li><li>Short Hills Club 4.5M <em>[2022 Fall]</em> <strong style='color:#27ae60'>5W</strong>–<strong style='color:#e74c3c'>4L</strong></li><li>Morris County TC 4.5M <em>[2023 Spring]</em> <strong style='color:#27ae60'>8W</strong>–<strong style='color:#e74c3c'>5L</strong></li><li>Montclair TC 4.5M <em>[2023 Fall]</em> <strong style='color:#27ae60'>7W</strong>–<strong style='color:#e74c3c'>6L</strong></li></ul>
+          <a class="btn" href="usta_Zhao_Tie_timeline.html">View Timeline →</a>
+        </div>
+        <div class="card">
+          <h2><a href="usta_Liu_Tony_timeline.html">Liu, Tony</a></h2>
+          <div class="badges">
+            <span class="badge ntrp">NTRP 4.0</span>
+            <span class="badge sect">Middle States</span>
+          </div>
+          <div class="record" style="color:#e74c3c">
+            24W – 25L &nbsp;(49.0%)
+          </div>
+          <div class="sub">Teams (4) · 49 matches</div>
+          <ul class="teams"><li>Essex County TC 4.0M <em>[2022 Spring]</em> <strong style='color:#27ae60'>3W</strong>–<strong style='color:#e74c3c'>10L</strong></li><li>Bergen Racquet Club 4.0 <em>[2022 Fall]</em> <strong style='color:#27ae60'>5W</strong>–<strong style='color:#e74c3c'>9L</strong></li><li>Princeton Tennis Center 4.0M <em>[2023 Spring]</em> <strong style='color:#27ae60'>7W</strong>–<strong style='color:#e74c3c'>3L</strong></li><li>Mercer County 4.0 Men <em>[2023 Fall]</em> <strong style='color:#27ae60'>9W</strong>–<strong style='color:#e74c3c'>3L</strong></li></ul>
+          <a class="btn" href="usta_Liu_Tony_timeline.html">View Timeline →</a>
+        </div>
+        <div class="card">
+          <h2><a href="usta_Qin_Rui_timeline.html">Qin, Rui</a></h2>
+          <div class="badges">
+            <span class="badge ntrp">NTRP 4.5</span>
+            <span class="badge sect">Middle States</span>
+          </div>
+          <div class="record" style="color:#27ae60">
+            27W – 22L &nbsp;(55.1%)
+          </div>
+          <div class="sub">Teams (4) · 49 matches</div>
+          <ul class="teams"><li>Morris County TC 4.5M <em>[2022 Spring]</em> <strong style='color:#27ae60'>8W</strong>–<strong style='color:#e74c3c'>6L</strong></li><li>NJ State Champions 4.5 <em>[2022 Fall]</em> <strong style='color:#27ae60'>9W</strong>–<strong style='color:#e74c3c'>5L</strong></li><li>Montclair TC 4.5M <em>[2023 Spring]</em> <strong style='color:#27ae60'>4W</strong>–<strong style='color:#e74c3c'>6L</strong></li><li>Bridgewater Racquet Club 4.5 <em>[2023 Fall]</em> <strong style='color:#27ae60'>6W</strong>–<strong style='color:#e74c3c'>5L</strong></li></ul>
+          <a class="btn" href="usta_Qin_Rui_timeline.html">View Timeline →</a>
+        </div>
+        <div class="card">
+          <h2><a href="usta_Zhang_Guoqiang_timeline.html">Zhang, Guoqiang</a></h2>
+          <div class="badges">
+            <span class="badge ntrp">NTRP 5.0</span>
+            <span class="badge sect">Middle States</span>
+          </div>
+          <div class="record" style="color:#27ae60">
+            28W – 22L &nbsp;(56.0%)
+          </div>
+          <div class="sub">Teams (4) · 50 matches</div>
+          <ul class="teams"><li>Livingston TC 5.0M <em>[2022 Spring]</em> <strong style='color:#27ae60'>9W</strong>–<strong style='color:#e74c3c'>5L</strong></li><li>NJ Elite 5.0 <em>[2022 Fall]</em> <strong style='color:#27ae60'>6W</strong>–<strong style='color:#e74c3c'>3L</strong></li><li>Union County TC 5.0M <em>[2023 Spring]</em> <strong style='color:#27ae60'>6W</strong>–<strong style='color:#e74c3c'>7L</strong></li><li>Princeton Univ TC 5.0 <em>[2023 Fall]</em> <strong style='color:#27ae60'>7W</strong>–<strong style='color:#e74c3c'>7L</strong></li></ul>
+          <a class="btn" href="usta_Zhang_Guoqiang_timeline.html">View Timeline →</a>
+        </div></div>
+<footer>
+  Scraped from tennisrecord.com · Visualized with Plotly
+</footer>
+</body>
+</html>
