@@ -1,0 +1,2 @@
+VPN test - confirming Claude Code web version works with VPN on.
+Date: 2026-04-09
